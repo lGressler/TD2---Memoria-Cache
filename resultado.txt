@@ -1,0 +1,18 @@
+Parâmetros da Simulação:
+Política de Escrita: write-through
+Tamanho do Bloco: 128 bytes
+Número de Linhas: 64
+Associatividade: 4 blocos por conjunto
+Tempo de Acesso (hit): 5 ns
+Política de Substituição: LRU
+Tempo de Acesso à Memória Principal: 70 ns
+
+Total de Leituras: 88
+Total de Escritas: 12
+Total de Acessos: 100
+Leituras na Memória Principal: 44
+Escritas na Memória Principal: 12
+Taxa de Acerto (Leitura): 0.5455 (48)
+Taxa de Acerto (Escrita): 0.6667 (8)
+Taxa de Acerto Total: 0.5600 (56)
+Tempo Médio de Acesso: 35.8000 ns
